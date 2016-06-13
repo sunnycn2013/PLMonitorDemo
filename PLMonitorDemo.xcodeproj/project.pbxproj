@@ -13,9 +13,21 @@
 		3703673C1D0EA003005D7EBF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3703673A1D0EA003005D7EBF /* Main.storyboard */; };
 		3703673E1D0EA003005D7EBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3703673D1D0EA003005D7EBF /* Assets.xcassets */; };
 		370367411D0EA003005D7EBF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3703673F1D0EA003005D7EBF /* LaunchScreen.storyboard */; };
+		3703675B1D0EA0D7005D7EBF /* CrashReporter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 370367481D0EA0D7005D7EBF /* CrashReporter.framework */; };
+		3703675C1D0EA0D7005D7EBF /* SMLagMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 3703674A1D0EA0D7005D7EBF /* SMLagMonitor.m */; };
+		3703675D1D0EA0D7005D7EBF /* SMTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3703674C1D0EA0D7005D7EBF /* SMTableView.m */; };
+		3703675E1D0EA0D7005D7EBF /* SMTableViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3703674E1D0EA0D7005D7EBF /* SMTableViewModel.m */; };
+		3703675F1D0EA0D7005D7EBF /* TestTableCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 370367501D0EA0D7005D7EBF /* TestTableCellView.m */; };
+		370367601D0EA0D7005D7EBF /* TestTableStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 370367521D0EA0D7005D7EBF /* TestTableStore.m */; };
+		370367611D0EA0D7005D7EBF /* TestTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 370367541D0EA0D7005D7EBF /* TestTableView.m */; };
+		370367621D0EA0D7005D7EBF /* TestTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 370367561D0EA0D7005D7EBF /* TestTableViewCell.m */; };
+		370367631D0EA0D7005D7EBF /* testTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 370367581D0EA0D7005D7EBF /* testTableViewController.m */; };
+		370367641D0EA0D7005D7EBF /* UIView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3703675A1D0EA0D7005D7EBF /* UIView+Additions.m */; };
+		94B71AE482FDC1F769E41086 /* libPods-PLMonitorDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D2939BBF7CF9C9F9A717119D /* libPods-PLMonitorDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2A0156D04F9EB28EE734F84D /* Pods-PLMonitorDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PLMonitorDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-PLMonitorDemo/Pods-PLMonitorDemo.release.xcconfig"; sourceTree = "<group>"; };
 		3703672E1D0EA003005D7EBF /* PLMonitorDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PLMonitorDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		370367321D0EA003005D7EBF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		370367341D0EA003005D7EBF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +38,27 @@
 		3703673D1D0EA003005D7EBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		370367401D0EA003005D7EBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		370367421D0EA003005D7EBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		370367481D0EA0D7005D7EBF /* CrashReporter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CrashReporter.framework; sourceTree = "<group>"; };
+		370367491D0EA0D7005D7EBF /* SMLagMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMLagMonitor.h; sourceTree = "<group>"; };
+		3703674A1D0EA0D7005D7EBF /* SMLagMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMLagMonitor.m; sourceTree = "<group>"; };
+		3703674B1D0EA0D7005D7EBF /* SMTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMTableView.h; sourceTree = "<group>"; };
+		3703674C1D0EA0D7005D7EBF /* SMTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMTableView.m; sourceTree = "<group>"; };
+		3703674D1D0EA0D7005D7EBF /* SMTableViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMTableViewModel.h; sourceTree = "<group>"; };
+		3703674E1D0EA0D7005D7EBF /* SMTableViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMTableViewModel.m; sourceTree = "<group>"; };
+		3703674F1D0EA0D7005D7EBF /* TestTableCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestTableCellView.h; sourceTree = "<group>"; };
+		370367501D0EA0D7005D7EBF /* TestTableCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestTableCellView.m; sourceTree = "<group>"; };
+		370367511D0EA0D7005D7EBF /* TestTableStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestTableStore.h; sourceTree = "<group>"; };
+		370367521D0EA0D7005D7EBF /* TestTableStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestTableStore.m; sourceTree = "<group>"; };
+		370367531D0EA0D7005D7EBF /* TestTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestTableView.h; sourceTree = "<group>"; };
+		370367541D0EA0D7005D7EBF /* TestTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestTableView.m; sourceTree = "<group>"; };
+		370367551D0EA0D7005D7EBF /* TestTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestTableViewCell.h; sourceTree = "<group>"; };
+		370367561D0EA0D7005D7EBF /* TestTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestTableViewCell.m; sourceTree = "<group>"; };
+		370367571D0EA0D7005D7EBF /* testTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testTableViewController.h; sourceTree = "<group>"; };
+		370367581D0EA0D7005D7EBF /* testTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testTableViewController.m; sourceTree = "<group>"; };
+		370367591D0EA0D7005D7EBF /* UIView+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Additions.h"; sourceTree = "<group>"; };
+		3703675A1D0EA0D7005D7EBF /* UIView+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Additions.m"; sourceTree = "<group>"; };
+		52D2950970F72C964E09E213 /* Pods-PLMonitorDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PLMonitorDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PLMonitorDemo/Pods-PLMonitorDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		D2939BBF7CF9C9F9A717119D /* libPods-PLMonitorDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PLMonitorDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +66,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94B71AE482FDC1F769E41086 /* libPods-PLMonitorDemo.a in Frameworks */,
+				3703675B1D0EA0D7005D7EBF /* CrashReporter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +79,8 @@
 			children = (
 				370367301D0EA003005D7EBF /* PLMonitorDemo */,
 				3703672F1D0EA003005D7EBF /* Products */,
+				5E27865D2F35A72B2DAF2EFE /* Pods */,
+				D4B6783EC596D29336A0F4A7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +95,10 @@
 		370367301D0EA003005D7EBF /* PLMonitorDemo */ = {
 			isa = PBXGroup;
 			children = (
+				370367681D0EA385005D7EBF /* Store */,
+				370367671D0EA380005D7EBF /* View */,
+				370367661D0EA36D005D7EBF /* Lib */,
+				370367651D0EA363005D7EBF /* Controller */,
 				370367341D0EA003005D7EBF /* AppDelegate.h */,
 				370367351D0EA003005D7EBF /* AppDelegate.m */,
 				370367371D0EA003005D7EBF /* ViewController.h */,
@@ -79,6 +120,86 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		370367651D0EA363005D7EBF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				370367571D0EA0D7005D7EBF /* testTableViewController.h */,
+				370367581D0EA0D7005D7EBF /* testTableViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		370367661D0EA36D005D7EBF /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				370367591D0EA0D7005D7EBF /* UIView+Additions.h */,
+				3703675A1D0EA0D7005D7EBF /* UIView+Additions.m */,
+				370367481D0EA0D7005D7EBF /* CrashReporter.framework */,
+				370367491D0EA0D7005D7EBF /* SMLagMonitor.h */,
+				3703674A1D0EA0D7005D7EBF /* SMLagMonitor.m */,
+			);
+			name = Lib;
+			sourceTree = "<group>";
+		};
+		370367671D0EA380005D7EBF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3703676A1D0EA3AA005D7EBF /* TestTableView */,
+				370367691D0EA3A3005D7EBF /* ListView */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		370367681D0EA385005D7EBF /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				370367511D0EA0D7005D7EBF /* TestTableStore.h */,
+				370367521D0EA0D7005D7EBF /* TestTableStore.m */,
+			);
+			name = Store;
+			sourceTree = "<group>";
+		};
+		370367691D0EA3A3005D7EBF /* ListView */ = {
+			isa = PBXGroup;
+			children = (
+				3703674B1D0EA0D7005D7EBF /* SMTableView.h */,
+				3703674C1D0EA0D7005D7EBF /* SMTableView.m */,
+				3703674D1D0EA0D7005D7EBF /* SMTableViewModel.h */,
+				3703674E1D0EA0D7005D7EBF /* SMTableViewModel.m */,
+			);
+			name = ListView;
+			sourceTree = "<group>";
+		};
+		3703676A1D0EA3AA005D7EBF /* TestTableView */ = {
+			isa = PBXGroup;
+			children = (
+				3703674F1D0EA0D7005D7EBF /* TestTableCellView.h */,
+				370367501D0EA0D7005D7EBF /* TestTableCellView.m */,
+				370367531D0EA0D7005D7EBF /* TestTableView.h */,
+				370367541D0EA0D7005D7EBF /* TestTableView.m */,
+				370367551D0EA0D7005D7EBF /* TestTableViewCell.h */,
+				370367561D0EA0D7005D7EBF /* TestTableViewCell.m */,
+			);
+			name = TestTableView;
+			sourceTree = "<group>";
+		};
+		5E27865D2F35A72B2DAF2EFE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				52D2950970F72C964E09E213 /* Pods-PLMonitorDemo.debug.xcconfig */,
+				2A0156D04F9EB28EE734F84D /* Pods-PLMonitorDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D4B6783EC596D29336A0F4A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D2939BBF7CF9C9F9A717119D /* libPods-PLMonitorDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +207,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 370367451D0EA003005D7EBF /* Build configuration list for PBXNativeTarget "PLMonitorDemo" */;
 			buildPhases = (
+				8E331E145250031D584CC71C /* 📦 Check Pods Manifest.lock */,
 				3703672A1D0EA003005D7EBF /* Sources */,
 				3703672B1D0EA003005D7EBF /* Frameworks */,
 				3703672C1D0EA003005D7EBF /* Resources */,
+				D40CA4F95A743B716AD1BE33 /* 📦 Embed Pods Frameworks */,
+				1A22ED693AC0B185ED93183E /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -144,12 +268,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1A22ED693AC0B185ED93183E /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PLMonitorDemo/Pods-PLMonitorDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E331E145250031D584CC71C /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D40CA4F95A743B716AD1BE33 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PLMonitorDemo/Pods-PLMonitorDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3703672A1D0EA003005D7EBF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				370367641D0EA0D7005D7EBF /* UIView+Additions.m in Sources */,
+				370367601D0EA0D7005D7EBF /* TestTableStore.m in Sources */,
+				370367621D0EA0D7005D7EBF /* TestTableViewCell.m in Sources */,
+				3703675F1D0EA0D7005D7EBF /* TestTableCellView.m in Sources */,
 				370367391D0EA003005D7EBF /* ViewController.m in Sources */,
+				3703675D1D0EA0D7005D7EBF /* SMTableView.m in Sources */,
+				370367631D0EA0D7005D7EBF /* testTableViewController.m in Sources */,
+				3703675C1D0EA0D7005D7EBF /* SMLagMonitor.m in Sources */,
+				370367611D0EA0D7005D7EBF /* TestTableView.m in Sources */,
+				3703675E1D0EA0D7005D7EBF /* SMTableViewModel.m in Sources */,
 				370367361D0EA003005D7EBF /* AppDelegate.m in Sources */,
 				370367331D0EA003005D7EBF /* main.m in Sources */,
 			);
@@ -263,8 +444,13 @@
 		};
 		370367461D0EA003005D7EBF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52D2950970F72C964E09E213 /* Pods-PLMonitorDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PLMonitorDemo",
+				);
 				INFOPLIST_FILE = PLMonitorDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.PLMonitorDemo;
@@ -274,8 +460,13 @@
 		};
 		370367471D0EA003005D7EBF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A0156D04F9EB28EE734F84D /* Pods-PLMonitorDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PLMonitorDemo",
+				);
 				INFOPLIST_FILE = PLMonitorDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.PLMonitorDemo;
@@ -302,6 +493,7 @@
 				370367471D0EA003005D7EBF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
